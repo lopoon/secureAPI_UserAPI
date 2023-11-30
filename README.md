@@ -34,18 +34,22 @@ These instructions will get you a copy of the project up and running on your loc
 3. **Install dependencies and run the project**
 
 Run the following commands in the project root directory:
-npm install
-npm run start
+   ```properties
+   npm install
+   npm run start
+   ```
 
 The API server should now be running at http://localhost:3000.
 
-Deployment on Kubernetes
+## Deployment on Kubernetes
 If you want to run this project in a Kubernetes cluster, you can follow these steps:
 
 Build the project and publish it to a private repository
 
 Run the following command to build the project:
-npm run build
+   ```properties
+   npm run build
+   ```
 
 Then, publish the built project to your private repository.
 
